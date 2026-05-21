@@ -1,0 +1,114 @@
+# ========================================
+# AI-Powered Quant Trading Agent .gitignore
+# ========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Data & Large Files
+*.csv
+*.parquet
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+*.joblib
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# API Keys & Secrets
+.env
+*.env
+secrets.json
+credentials.json
+config/secrets/*
+
+# Logs
+*.log
+logs/
+log/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+*.iml
+
+# Model files (if large)
+*.pth
+*.pt
+*.h5
+*.onnx
+models/checkpoints/
+
+# Results & Output Plots (optional - keep small ones)
+results/*.png
+results/*.jpg
+results/*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Temporary files
+temp/
+tmp/
+.cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+
+# Misc
+node_modules/
+*.sqlite3
